@@ -1,0 +1,8 @@
+print('Podaj długośc boku a')
+a=float(input())
+print('Podaj długośc boku b')
+b=float(input())
+print('Podaj długośc boku c')
+c=float(input())
+pole=(((a+b+c)*(a+b-c)*(a-b+c)*(-a+b+c))**(1/2)/4)
+print(f'Pole powierzchni trójkąta wynosi{pole}')
