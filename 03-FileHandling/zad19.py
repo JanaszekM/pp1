@@ -1,6 +1,6 @@
 import re
 z=[]
-i=0
+
 with open('universities.txt','r') as f:
     for line in f:
         x=line.replace('"','')
@@ -8,8 +8,7 @@ with open('universities.txt','r') as f:
         z.append(y)
         n=sorted(z)
     print(n)
-with open('universities.txt','w') as f:
-    f.write(str(n))
+
 
     
     

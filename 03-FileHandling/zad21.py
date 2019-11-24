@@ -2,8 +2,8 @@ numbers = []
 suma = []
 with open('numbersinrows.txt','r') as fi:
     for line in fi:
-        line =line.strip('\n')
-        line =line.split(',')
+        line.strip('\n')
+        line.split(',')
         for liczba in line:
             numbers.append(liczba)
 for cyfra in numbers:
