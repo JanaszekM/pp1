@@ -1,5 +1,8 @@
-import re
+import turtle
 
-with open('land.txt', 'r') as f:
-    liczby=re.findall('\d.*?',f.read())
-    print(sum(liczby))
+pen = turtle.Turtle()
+pen.circle(100)
+pen.setheading(60)
+for i in range(3):
+    pen.right(60)
+    pen.forward(100)

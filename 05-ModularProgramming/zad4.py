@@ -9,6 +9,7 @@ potega= math.pow(x,1.0/y)
 print(potega)
 pole=(math.pi)*4**2
 print(pole)
+print('jjj')
 def silnia(y):
     i=y
     while y>1:

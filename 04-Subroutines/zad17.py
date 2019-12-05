@@ -10,7 +10,7 @@ def rzuckostka():
         print(x, end=' ')
         sum+=x
         i+=1
-    print(f'\nSuma oczek: {sum}')
+    print(f'Suma oczek: {sum}')
 rzuckostka()
      
  

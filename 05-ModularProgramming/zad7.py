@@ -1,5 +1,5 @@
 from turtle import *
-color('black', 'lavender')
+color('black', 'pink')
 begin_fill()
 for i in range(0, 4):
     forward(100)
