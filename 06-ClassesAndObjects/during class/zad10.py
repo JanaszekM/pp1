@@ -1,20 +1,21 @@
-class telewizor():
+class tl():
     def __init__(self):
-        self.is_on= False
-    def on():
+        self.is_on = False
+        self.channel = 1
+        self.channels = 'Telewizor niezaprogramowany.'
+
+    def on(self):
         self.is_on = True
-    def off():
+    
+    def off(self):
         self.is_on = False
         
     def show_status(self):
-        
         if self.is_on == True:
-            print('zalaczony')
+            print('Telewizor jest załączony')
         else:
-            print('nie zalaczony')
+            print('Telewizor nie jest załączony')
             
-            
-k=telewizor()
-k.show_status()
-        
-        
+b=tl()
+b.on()
+b.show_status()
